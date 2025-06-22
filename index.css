@@ -25,10 +25,6 @@ header > h1 {
   width: 100%;          
   min-height: 80vh;     
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7caff2e03e7da6590b875054aac3064445f7a56b
 @media (max-width: 500px) {
   .Maincontainer{
     justify-content: space-between;
@@ -37,14 +33,7 @@ header > h1 {
     margin-bottom: 40px;
     margin-top: 20px;
   }
-  .myImage{
-    size: 60%;
-  }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7caff2e03e7da6590b875054aac3064445f7a56b
 .item {
   flex: 1;                
   display: flex;
@@ -61,6 +50,15 @@ header > h1 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   max-width: 100%;
   max-height: 400px;
+}
+@media (max-width: 500px) {
+  .myImage{
+    max-width: 60%;
+  }
+  .text{
+    text-align: center;
+  }
+  
 }
 
 .getStartedBtn {
