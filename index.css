@@ -26,6 +26,19 @@ header > h1 {
   min-height: 80vh;     
 }
 
+@media (max-width: 500px) {
+  .Maincontainer{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  .myImage{
+    size: 60%;
+  }
+}
+
 .item {
   flex: 1;                
   display: flex;
