@@ -8,8 +8,9 @@ export default function BodyPage(){
             <div className="item">
                 <img className="myImage" src={imagebody} />
             </div>
+            
             <div className="item">
-                <div style={{padding:"20px",fontSize:"40px", fontFamily:"cursive", fontWeight:"600"}}>Take Control of Your Money</div>
+                <div style={{padding:"20px", fontSize:"50px", fontFamily:"cursive", fontWeight:"600"}}>Take Control of Your Money</div>
                 <div style={{padding:"20px",fontSize:"20px", fontFamily:"Helvectica", fontWeight:"200"}}>Personal budgeting is the secret to financial freedom. Start your journey today.</div>
                 <div>
                     <button  className="getStartedBtn" onClick={() => navigate("/budgetpage")}>
@@ -17,8 +18,6 @@ export default function BodyPage(){
                     </button>
                 </div>
                 </div>
-            
-
         </div>
     )
 }

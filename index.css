@@ -25,7 +25,10 @@ header > h1 {
   width: 100%;          
   min-height: 80vh;     
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7caff2e03e7da6590b875054aac3064445f7a56b
 @media (max-width: 500px) {
   .Maincontainer{
     justify-content: space-between;
@@ -38,7 +41,10 @@ header > h1 {
     size: 60%;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7caff2e03e7da6590b875054aac3064445f7a56b
 .item {
   flex: 1;                
   display: flex;
