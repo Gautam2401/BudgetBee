@@ -11,9 +11,7 @@ import BudgetPage from './Page/BudgetPage';
 function Layout() {
   return (
     <>
-      <Header />
       <Outlet />
-      <Footer />
     </>
   );
 }

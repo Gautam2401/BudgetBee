@@ -12,6 +12,9 @@ import { useEffect } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import Header from "../Component/Header";
+import Footer from "../Component/Footer";
+import { Fragment } from "react";
 
 const handleAddExpense = (name, amount, budgetId) => {
   setExpenses([
@@ -73,6 +76,9 @@ function BudgetPage() {
   };
 
   return (
+
+    <div style={{ background: "linear-gradient(180deg, #eaf6f3 0%, #f6fafd 100%)", minHeight: "100vh" }}>
+    <Header/>
     <Container className="py-5">
       <ToastContainer position="top-right" autoClose={5000} />
       <div className="d-flex justify-content-end mb-4">
@@ -107,6 +113,8 @@ function BudgetPage() {
         <Analytics budgets={budgets} expenses={expenses} />
       )}
     </Container>
+    <Footer/>
+    </div>
   );
 }
 
