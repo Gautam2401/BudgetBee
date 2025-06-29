@@ -211,3 +211,8 @@ input:focus {
   margin-bottom: 50px;
 }
 
+body {
+  background: linear-gradient(120deg, #e3e3e3, #c0c0c3, #a8a9ad);
+}
+
+
